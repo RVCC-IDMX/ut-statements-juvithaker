@@ -26,7 +26,6 @@ function times(a, b) {
   return a * b;
 }
 
-
 /**
  * Converts the number of minutes into seconds
  * @param {number} minutes - the number of minutes to convert
@@ -35,7 +34,6 @@ function times(a, b) {
 function convertMinutesToSeconds(minutes) {
   return minutes * 60;
 }
-
 
 /**
  * Converts the number of hours into seconds

@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 /*
  * stmnts-02.js
  * Language: javascript

@@ -1,3 +1,4 @@
+/* eslint-disable no-mixed-operators */
 /*
  * stmnts-04.js
  * Language: javascript
