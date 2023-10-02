@@ -14,7 +14,7 @@
  * @returns {number} - The sum of the two numbers
  */
 function sum(a, b) {
-  // write your code here & return value
+  return a + b;
 }
 
 /**
@@ -24,7 +24,16 @@ function sum(a, b) {
  * @returns {number} - The sum of the two numbers
  */
 function betterSum(x, y) {
-  // write your code here & return value
+  // Convert strings to numbers
+  const numX = Number(x);
+  const numY = Number(y);
+
+  // Check if conversion was successful
+  if (isNaN(numX) || isNaN(numY)) {
+    throw new Error('Invalid input. Please provide valid numbers or strings representing numbers.');
+  }
+
+  return numX + numY;
 }
 
 /**
@@ -37,8 +46,9 @@ function betterSum(x, y) {
  * ? computes the first operand modulo the second operand
  */
 function remainder(number, divisor) {
-  // write your code here & return value
+  return number % divisor;
 }
+
 module.exports = {
   sum,
   betterSum,
